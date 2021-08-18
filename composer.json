@@ -20,8 +20,8 @@
     },
     "require": {
         "php": "^7.3 || ^8.0",
-        "app-insights-php/monolog-handler": "^0.2.1",
-        "app-insights-php/client": "^0.2.6",
+        "secture/monolog-handler": "^0.2.1",
+        "secture/app-insights-php-client": "^0.0.1",
         "symfony/framework-bundle": "^3.4|^4.0|^4.4|^5.0|^5.1",
         "guzzlehttp/guzzle": "^6.0",
         "twig/twig": "^1.2|^2|^3"
@@ -45,5 +45,15 @@
         "cs:php:fix": [
             "php-cs-fixer fix"
         ]
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "https://github.com/secture/app-insights-php-client.git"
+        },
+        {
+            "type": "vcs",
+            "url":  "https://github.com/secture/app-insights-php-monolog-handler.git"
+        }
+    ]
 }
