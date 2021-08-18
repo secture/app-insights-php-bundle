@@ -1,5 +1,5 @@
 {
-    "name": "app-insights-php/app-insights-php-bundle",
+    "name": "luismi-secture/app-insights-php-bundle",
     "description": "Microsoft App Insights Symfony bundle",
     "type": "symfony-bundle",
     "license": "MIT",
